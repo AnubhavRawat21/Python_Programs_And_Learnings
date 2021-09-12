@@ -12,6 +12,7 @@ def charOccurenceCount(stringParameter):
             count+=1
     return count
 
+# Main
 # Input From User
 inputString=input('Enter String - ')
 searchChar=input("Enter Char To Count - ")
