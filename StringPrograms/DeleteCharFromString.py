@@ -8,6 +8,7 @@
 # Output - So after deleting 'o' it will be 'Hell'
 
 def deleteChar(inputString, charToDel):
+    print("Function Started")
     newString=""
     for char in inputString:
         if(char != charToDel):

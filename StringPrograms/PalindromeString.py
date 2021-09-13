@@ -10,6 +10,7 @@ def reverseString(str1):
     for index in range(-1,-len(str1)-1,-1):
         reversedStr+=str1[index]
     return reversedStr.lower()
+   
 
 inputStr=input("Enter any string - ")
 if inputStr.lower()==reverseString(inputStr):
